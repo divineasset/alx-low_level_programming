@@ -14,7 +14,6 @@ while (s[i] != '\0') /*Count character of string*/
 {
 i++;
 }
-
 return (i);
 }
 
@@ -38,7 +37,7 @@ if (s2 == NULL)
 s2 = "";
 
 /*count size total*/
-size = (_strlen(s1) + _strlen(s2) + 1)
+size = (_strlen(s1) + _strlen(s2) + 1);
 
 /*malloc*/
 dst = (char *) malloc(size *sizeof(char));
